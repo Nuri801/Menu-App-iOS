@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67CBF23D2A0882D000A47AE6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CBF23C2A0882D000A47AE6 /* CustomButton.swift */; };
+		67CBF23F2A0884D100A47AE6 /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CBF23E2A0884D100A47AE6 /* MenuListRow.swift */; };
 		67D6DCBE2A0249F5008A5E3F /* MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D6DCBD2A0249F5008A5E3F /* MenuApp.swift */; };
 		67D6DCC02A0249F5008A5E3F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D6DCBF2A0249F5008A5E3F /* MenuView.swift */; };
 		67D6DCC22A0249F6008A5E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D6DCC12A0249F6008A5E3F /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67CBF23C2A0882D000A47AE6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		67CBF23E2A0884D100A47AE6 /* MenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
 		67D6DCBA2A0249F5008A5E3F /* Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D6DCBD2A0249F5008A5E3F /* MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuApp.swift; sourceTree = "<group>"; };
 		67D6DCBF2A0249F5008A5E3F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 				67D6DCBD2A0249F5008A5E3F /* MenuApp.swift */,
 				67D6DCBF2A0249F5008A5E3F /* MenuView.swift */,
 				67D6DCCB2A024D5B008A5E3F /* MenuItem.swift */,
+				67CBF23E2A0884D100A47AE6 /* MenuListRow.swift */,
 				67D6DCCD2A03A79B008A5E3F /* DataService.swift */,
+				67CBF23C2A0882D000A47AE6 /* CustomButton.swift */,
 				67D6DCC12A0249F6008A5E3F /* Assets.xcassets */,
 				67D6DCC32A0249F6008A5E3F /* Preview Content */,
 			);
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				67D6DCCC2A024D5B008A5E3F /* MenuItem.swift in Sources */,
+				67CBF23F2A0884D100A47AE6 /* MenuListRow.swift in Sources */,
 				67D6DCC02A0249F5008A5E3F /* MenuView.swift in Sources */,
 				67D6DCBE2A0249F5008A5E3F /* MenuApp.swift in Sources */,
 				67D6DCCE2A03A79B008A5E3F /* DataService.swift in Sources */,
+				67CBF23D2A0882D000A47AE6 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
